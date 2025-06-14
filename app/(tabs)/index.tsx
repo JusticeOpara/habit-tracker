@@ -74,6 +74,7 @@ export default function Index() {
     }
   }, [user]);
 
+
   const fetchHabit = async () => {
     try {
       const response = await databases.listDocuments(
@@ -87,6 +88,8 @@ export default function Index() {
       console.log(error);
     }
   };
+
+
   const fetchTodayCompletions = async () => {
     try {
       const today = new Date();
@@ -105,6 +108,7 @@ export default function Index() {
       console.log(error);
     }
   };
+
   const handleDeleteHabit = async (id: string) => {
     try {
       await databases.deleteDocument(DATABASES_ID, HABIT_COLLECTION_ID, id);
@@ -112,7 +116,9 @@ export default function Index() {
       console.log(error);
     }
   };
-  console.log(completedHabits, "Completedhabits");
+  // console.log(completedHabits, "Completedhabits");
+
+
   const handleCompleteHabit = async (id: string) => {
     if (!user || completedHabits?.includes(id)) return;
     try {
@@ -140,6 +146,7 @@ export default function Index() {
     }
   };
 
+
   const isHabitCompleted = (habitId: string) =>
     completedHabits?.includes(habitId);
 
@@ -147,7 +154,7 @@ export default function Index() {
     return (
       <View style={styles.swipeActionRight}>
         {isHabitCompleted(habitId) ? (
-          <Text style={{ color:"#fff"}}>Completed!</Text>
+          <Text style={{ color: "#fff" }}>Completed!</Text>
         ) : (
           <MaterialCommunityIcons
             name="check-circle-outline"

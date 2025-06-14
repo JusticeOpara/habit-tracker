@@ -40,6 +40,11 @@ export default function AddHabitScreen() {
           created_at: new Date().toISOString(),
         }
       );
+      // Clear input fields after successful creation
+      setTitle("");
+      setDescription("");
+      setFrequency("daily");
+
       router.back();
     } catch (error) {
       if (error instanceof Error) {
@@ -49,19 +54,21 @@ export default function AddHabitScreen() {
       setError("There was an error creating the habit");
     }
   };
-  console.log(error, "add habit");
+  // console.log(error, "add habit");
 
   return (
     <View style={styles.container}>
       <TextInput
         label="Title"
         mode="outlined"
+        value={title}
         style={styles.input}
         onChangeText={setTitle}
       />
       <TextInput
         label="Decription"
         mode="outlined"
+        value={description}
         style={styles.input}
         onChangeText={setDescription}
       />
