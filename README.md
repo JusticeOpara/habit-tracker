@@ -1,32 +1,31 @@
-# Build a Habit Tracker App with React Native & Appwrite
+# Built a Habit Tracker App with React Native & Appwrite
 
-<div style={{align-item : "center"}}>
-  <br />
-  <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">
-    <img src="https://github.com/user-attachments/assets/297ea017-d084-48a1-a064-513d1b6b3d0c" alt="Habit Tracker App Banner">
-  </a>
-  <br />
+<div align="center">
   <div>
-    ![React Native](https://img.shields.io/badge/-React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-    ![Expo](https://img.shields.io/badge/-Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
-    ![Appwrite](https://img.shields.io/badge/-Appwrite-2E73D5?style=for-the-badge&logo=appwrite&logoColor=white)
-    ![React Hooks](https://img.shields.io/badge/-React_Hooks-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-    ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
+    <img src="https://img.shields.io/badge/-React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Native" />
+    <img src="https://img.shields.io/badge/-Expo-000000?style=for-the-badge&logo=expo&logoColor=white" alt="Expo" />
+    <img src="https://img.shields.io/badge/-Appwrite-2E73D5?style=for-the-badge&logo=appwrite&logoColor=white" alt="Appwrite" />
+    <img src="https://img.shields.io/badge/-React_Hooks-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Hooks" />
+    <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
   </div>
-  ### Built a Habit Tracker App with React Native, Appwrite, and TailwindCSS {: align="center" }
-
+  <h3 align="center">Built a Habit Tracker App with React Native, Appwrite, and TailwindCSS</h3>
   <br />
-  
 </div>
 
 ## 📋 Table of Contents
 
-1. [Introduction](#-introduction)
-2. [Tech Stack](#-tech-stack)
-3. [Features](#-features)
-4. [Quick Start](#-quick-start)
-5. [Screenshots](#-screenshots)
-6. [Deployment](#-deployment)
+- [Built a Habit Tracker App with React Native \& Appwrite](#built-a-habit-tracker-app-with-react-native--appwrite)
+  - [📋 Table of Contents](#-table-of-contents)
+  - [🚀 Introduction](#-introduction)
+  - [⚙️ Tech Stack](#️-tech-stack)
+  - [⚡️ Features](#️-features)
+  - [👌 Quick Start](#-quick-start)
+    - [Prerequisites](#prerequisites)
+    - [Clone and Run](#clone-and-run)
+  - [🖼️ Screenshots](#️-screenshots)
+  - [☁️ Deployment](#️-deployment)
+    - [Deploy on Expo](#deploy-on-expo)
+  - [🔗 Useful Links](#-useful-links)
 
 ---
 
