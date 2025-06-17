@@ -40,6 +40,7 @@ export default function AddHabitScreen() {
           created_at: new Date().toISOString(),
         }
       );
+      
       // Clear input fields after successful creation
       setTitle("");
       setDescription("");
